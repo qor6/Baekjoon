@@ -1,3 +1,5 @@
+//https://www.acmicpc.net/problem/1620
+//시간초과 발생함....
 #include <iostream>
 #include <algorithm>
 #include <string>
