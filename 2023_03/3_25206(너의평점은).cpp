@@ -1,10 +1,11 @@
+//https://www.acmicpc.net/problem/25206
 #include <iostream>
 #include <map>
 #include <iomanip>
 using namespace std;
 int main()
 {
-    map<string, double> m;	//map <key type, value type> ÀÌ¸§
+    map<string, double> m;	//map <key type, value type> ì´ë¦„
     m["A+"] = 4.5;
     m["A0"] = 4.0;
     m["B+"] = 3.5;
@@ -19,14 +20,14 @@ int main()
     string o;
 	double a;
 	string p;
-    double sum = 0;	//°ú¸ñÃÑÇÕ
-	double num = 0;	//°ú¸ñ°³¼ö 
+    double sum = 0;	//ê³¼ëª©ì´í•©
+	double num = 0;	//ê³¼ëª©ê°œìˆ˜ 
     
     for(int i = 0; i < 20; i++)
     {
 		cin >> o >> a >> p;
 		if(m.find(p) != m.end()){
-    		sum += a * m[p];	//ÇĞÁ¡ * grade 
+    		sum += a * m[p];	//í•™ì  * grade 
     		num += a;
 		}
 	}
