@@ -1,9 +1,10 @@
+//https://www.acmicpc.net/problem/1152
 #include <iostream>
 using namespace std;
 int main()
 {
 	string str;
-	getline(cin, str);	//ÇÑÁÙÀº ¹ŞÀ½
+	getline(cin, str);	//Ã‡Ã‘ÃÃ™Ã€Âº Â¹ÃÃ€Â½
 	int count = 1;
 	int i = 0;
 //	if(str[0] == ' ')
